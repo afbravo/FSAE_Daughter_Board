@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid 7091d1b4-a5a7-4142-b21f-a283dabadc63)
 
@@ -9,98 +9,40 @@
 
 
   (sheet (at 39.497 96.012) (size 35.687 15.494) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 98c77a28-7e90-4efe-a5ee-d1e468123dce)
-    (property "Sheet name" "Power" (id 0) (at 39.497 95.3004 0)
+    (property "Sheetname" "Power" (at 39.497 95.3004 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "power.kicad_sch" (id 1) (at 39.497 112.0906 0)
+    (property "Sheetfile" "power.kicad_sch" (at 39.497 112.0906 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "daughterBoard"
+        (path "/7091d1b4-a5a7-4142-b21f-a283dabadc63" (page "2"))
+      )
     )
   )
 
   (sheet (at 39.497 120.142) (size 35.687 16.637) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid ae56efaf-14df-4ad2-8745-49c68c2d1f2e)
-    (property "Sheet name" "Microcontroller" (id 0) (at 39.497 119.4304 0)
+    (property "Sheetname" "Microcontroller" (at 39.497 119.4304 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 39.497 137.3636 0)
+    (property "Sheetfile" "mcu.kicad_sch" (at 39.497 137.3636 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "daughterBoard"
+        (path "/7091d1b4-a5a7-4142-b21f-a283dabadc63" (page "3"))
+      )
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/98c77a28-7e90-4efe-a5ee-d1e468123dce" (page "2"))
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e" (page "3"))
-  )
-
-  (symbol_instances
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/3c0f1e96-d06a-44f9-9182-6244198eb7e9"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/551513d2-d4fd-4c9b-8755-566e9f33324b"
-      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/6ad95760-6a9c-433a-84b5-12d7194175a8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/925cb179-c3b6-48af-a868-6e1dbeb24a90"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/a3e29817-2622-43d5-ab62-84a77613fe96"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/a64b1aa5-43da-4de6-afab-c44d18c3a433"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/b837b377-4698-42e2-bf98-5fbb7d26c384"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/cd80d446-bacf-4bce-866c-245cf1098e27"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/ecde1048-0828-4037-afbf-6f4f1f0f9e1b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/25d34b6e-becb-4b77-a7c4-1ca38d5e9e8e"
-      (reference "C?") (unit 1) (value "C_Small") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/75f99026-322b-46f5-9955-35dae57232e4"
-      (reference "C?") (unit 1) (value "C_Small") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/821b5f5d-e1f9-476f-ac8a-5eda48ad8f5b"
-      (reference "C?") (unit 1) (value "C_Small") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/c811c182-638c-4712-b266-ca3b2dc6d0c6"
-      (reference "C?") (unit 1) (value "C_Small") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/d9b1219a-e080-4f7b-ac6d-b1777862e904"
-      (reference "J?") (unit 1) (value "TC2030") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/777db7fb-ec80-4347-a531-7a7c2d486f29"
-      (reference "R?") (unit 1) (value "DNP") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/64e86562-5733-4e8b-b101-3b4a14e045d9"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/9137af6a-4f54-4585-ad4c-835bacc7bead"
-      (reference "SW?") (unit 1) (value "SW_SPDT") (footprint "")
-    )
-    (path "/98c77a28-7e90-4efe-a5ee-d1e468123dce/b72b75b3-245d-4f8d-923c-f0789d0a6e49"
-      (reference "U?") (unit 1) (value "STM32G474VEXX") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/faf3939b-e255-4c70-a3ac-600bceaa0f13"
-      (reference "U?") (unit 2) (value "STM32G474VEXX") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/77a64bb6-85f6-43e5-88ea-9a3977c67123"
-      (reference "Y?") (unit 1) (value "Crystal") (footprint "")
-    )
-    (path "/ae56efaf-14df-4ad2-8745-49c68c2d1f2e/c5ab953d-63a3-417e-b2f5-4b20b008f444"
-      (reference "Y?") (unit 1) (value "32k768") (footprint "")
-    )
   )
 )

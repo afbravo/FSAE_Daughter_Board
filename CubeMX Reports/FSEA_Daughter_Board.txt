@@ -1,0 +1,72 @@
+Configuration	FSEA_Daughter_Board
+STM32CubeMX 	6.9.2
+Date	11/15/2023
+MCU	STM32G474VETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC14-OSC32_IN	RCC_OSC32_IN	
+9	PC15-OSC32_OUT	RCC_OSC32_OUT	
+12	PF0-OSC_IN	RCC_OSC_IN	
+13	PF1-OSC_OUT	RCC_OSC_OUT	
+76	PA13	SYS_JTMS-SWDIO	
+77	PA14	SYS_JTCK-SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC14-OSC32_IN	RCC_OSC32_IN	
+9	PC15-OSC32_OUT	RCC_OSC32_OUT	
+12	PF0-OSC_IN	RCC_OSC_IN	
+13	PF1-OSC_OUT	RCC_OSC_OUT	
+76	PA13	SYS_JTMS-SWDIO	
+77	PA14	SYS_JTCK-SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : FSEA_Daughter_Board
+Project Folder : /Users/afbravo/Desktop/FSEA_Daughter_Board
+Toolchain / IDE : EWARM V8.50
+Firmware Package Name and Version : STM32Cube FW_G4 V1.5.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
